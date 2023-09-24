@@ -1,0 +1,50 @@
+.effects {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.listitem {
+  display: flex;
+  gap: 20px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description {
+  font-family: "Montserrat", "sans-serif";
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+}

@@ -1,0 +1,78 @@
+.countdown {
+  padding: 100px 0px 120px;
+}
+
+.promo {
+  margin: 0 auto;
+  background-image: url("../../../public/images/background/timer-mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 462px;
+  max-width: 330px;
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.textwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+
+.price {
+  font-family: "Montserrat", "sans-serif";
+  color: #f94a2f;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.sale {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  width: 70%;
+  line-height: normal;
+  font-style: normal;
+}
+
+.text {
+  font-family: "Montserrat", "sans-serif";
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  width: 48%;
+}
+
+.button {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 12px 49px;
+  transition: 250ms ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #f94a2f;
+  color: #fff !important;
+}

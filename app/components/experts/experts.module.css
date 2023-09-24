@@ -1,0 +1,33 @@
+.experts {
+  padding: 100px 35px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-image: url("../../../public/images/background/lady.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0;
+}
+
+.description,
+.author {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.accent {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
