@@ -4,14 +4,14 @@ function Experts() {
   return (
     <div className={styles.experts}>
       <h2 className={styles.title}>
-        Los expertos confirman la eficacia de "Fast Slim"
+        Los expertos confirman la eficacia de &rdquo;Fast Slim&rdquo;
       </h2>
       <p className={styles.description}>
         Como nutricionista, me gustaría abordar los efectos positivos del
-        suplemento dietético "Fast Slim" en la pérdida de peso y su seguridad
-        para la salud del estómago. Se han realizado extensos estudios clínicos
-        que confirman la eficacia y seguridad de este suplemento para apoyar los
-        esfuerzos de pérdida de peso.
+        suplemento dietético &rdquo;Fast Slim&rdquo; en la pérdida de peso y su
+        seguridad para la salud del estómago. Se han realizado extensos estudios
+        clínicos que confirman la eficacia y seguridad de este suplemento para
+        apoyar los esfuerzos de pérdida de peso.
       </p>
       <p className={styles.description}>
         Fast Slim se fabrica en instalaciones aprobadas por la FDA, lo que

@@ -23,7 +23,8 @@ function Effects() {
               en el cuerpo. Eliminan rápidamente las toxinas acumuladas y el
               exceso de líquidos del cuerpo, con total seguridad, adicionalmente
               estimulan la producción de colágeno, que proporciona elasticidad a
-              la piel, eliminando las estrías y la "piel de naranja".
+              la piel, eliminando las estrías y la &rdquo;piel de
+              naranja&rdquo;.
             </p>
           </div>
         </li>

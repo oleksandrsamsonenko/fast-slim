@@ -10,8 +10,8 @@ function Contacts() {
           Date prisa para pedir a un precio promocional
         </h2>
         <p className={styles.text}>
-          Date prisa para comprar "Fast Slim" con descuento y comienza tu viaje
-          hacia el cuerpo de tus sueños
+          Date prisa para comprar &rdquo;Fast Slim&rdquo; con descuento y
+          comienza tu viaje hacia el cuerpo de tus sueños
         </p>
       </div>
       <form action="" className={styles.form}>
@@ -41,7 +41,7 @@ function Contacts() {
           Compar
         </button>
       </form>
-      <Image src={Logo} className={styles.image} />
+      <Image src={Logo} className={styles.image} alt="product view" />
     </div>
   );
 }

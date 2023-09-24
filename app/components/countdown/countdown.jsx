@@ -15,8 +15,8 @@ function Countdown() {
             <h3 className={styles.sale}>849 MXN</h3>
           </div>
           <h2 className={styles.title}>
-            Date prisa para comprar "Fast Slim" con descuento y comienza tu
-            viaje hacia el cuerpo de tus sueños
+            Date prisa para comprar &rdquo;Fast Slim&rdquo; con descuento y
+            comienza tu viaje hacia el cuerpo de tus sueños
           </h2>
           <p className={styles.text}>
             Tiempo restante hasta el final de la promoción:
