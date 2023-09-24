@@ -8,7 +8,7 @@ import styles from "./effects.module.css";
 
 function Effects() {
   return (
-    <div className={styles.effects}>
+    <div className={styles.effects} id="funciona">
       <h2 className={styles.title}>CÓMO FUNCIONA</h2>
       <ul className={styles.list}>
         <li className={styles.listitem}>

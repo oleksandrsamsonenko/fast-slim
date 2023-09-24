@@ -1,11 +1,18 @@
 .background {
-  background-image: url("../public/bg-mobile.png");
+  background-image: url("../public/images/hero/bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
 
-  padding: 20px;
+  padding: 20px 0px 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  @media screen and (min-width: 768px) {
+    background-image: url("../public/images/hero/bg-tablet.png");
+  }
+
+  @media screen and (min-width: 1440px) {
+    background-image: url("../public/images/hero/bg-desktop.png");
+  }
 }

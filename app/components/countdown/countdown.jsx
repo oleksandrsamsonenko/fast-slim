@@ -2,7 +2,6 @@ import dynamic from "next/dynamic";
 
 const Timer = dynamic(() => import("./timer/timer"), { ssr: false });
 
-import Link from "next/link";
 import styles from "./countdown.module.css";
 
 function Countdown() {
@@ -23,9 +22,11 @@ function Countdown() {
           </p>
         </div>
         <Timer />
-        <Link href="#contacts" className={styles.button}>
-          Compar
-        </Link>
+        <div className={styles.buttonwrapper}>
+          <a href="#contacts" className={styles.button}>
+            Compar
+          </a>
+        </div>
       </div>
     </div>
   );

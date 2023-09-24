@@ -2,7 +2,7 @@ import styles from "./experts.module.css";
 
 function Experts() {
   return (
-    <div className={styles.experts}>
+    <div className={styles.experts} id="experts">
       <h2 className={styles.title}>
         Los expertos confirman la eficacia de &rdquo;Fast Slim&rdquo;
       </h2>
@@ -23,10 +23,10 @@ function Experts() {
         estándares de la industria.
       </p>
 
-      <p className={styles.author}>
-        <span className={styles.accent}>Valentina Gabriela Rodríguez </span>
-        Dietista-nutricionista
-      </p>
+      <div>
+        <p className={styles.author}>Valentina Gabriela Rodríguez</p>
+        <p className={styles.position}> Dietista-nutricionista</p>
+      </div>
     </div>
   );
 }

@@ -206,7 +206,7 @@ function Slider() {
   );
 
   return (
-    <div className={styles.section}>
+    <div className={styles.section} id="slider">
       <h2 className={styles.title}>Comentarios de nuestros clientes</h2>
       <Swiper
         modules={[Autoplay, Navigation]}
