@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+
   @media screen and (min-width: 1440px) {
     width: 1110px;
   }
@@ -9,6 +10,7 @@
 
 .link {
   display: none;
+
   @media screen and (min-width: 1440px) {
     display: block;
     font-size: 16px;
@@ -19,9 +21,9 @@
     color: #fff;
     transition: 300ms ease;
   }
-}
 
-.link:hover,
-.link:focus {
-  color: #f94a2f;
+  &:hover,
+  &:focus {
+    color: #f94a2f;
+  }
 }

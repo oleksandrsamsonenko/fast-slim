@@ -1,6 +1,6 @@
 import Image from "next/image";
 import tubes from "@public/tubes.png";
-import styles from "./hero.module.css";
+import styles from "./hero.module.scss";
 import Decore from "@public/decoration.svg";
 
 function Hero() {

@@ -9,7 +9,7 @@ import Slider3 from "@public/images/slides/slider3.jpeg";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import styles from "./slider.module.css";
+import styles from "./slider.module.scss";
 
 function Slider() {
   const slides = (
@@ -216,21 +216,17 @@ function Slider() {
             slidesPerView: 1,
             spaceBetween: 40,
           },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-          },
           1440: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 27,
           },
         }}
         loop
-        // autoplay={{
-        //   delay: 5000,
-        //   pauseOnMouseEnter: true,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 5000,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: false,
+        }}
         className={styles.swiper}
       >
         {slides}

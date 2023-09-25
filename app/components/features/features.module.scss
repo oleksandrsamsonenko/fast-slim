@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+
   @media screen and (min-width: 768px) {
     gap: 60px;
   }
@@ -12,9 +13,11 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+
   @media screen and (min-width: 768px) {
     gap: 160px;
   }
+
   @media screen and (min-width: 1440px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,6 +30,7 @@
   font-weight: 700;
   line-height: 17px;
   text-align: center;
+
   @media screen and (min-width: 768px) {
     font-size: 36px;
     line-height: 43px;
@@ -38,6 +42,7 @@
     width: 95%;
     margin-left: auto;
   }
+
   @media screen and (min-width: 1440px) {
     order: 2;
     width: 100%;
@@ -56,6 +61,7 @@
   color: #fff;
   font-size: 12px;
   font-weight: 500;
+
   @media screen and (min-width: 768px) {
     padding: 25px 165px 25px 95px;
     min-height: 200px;
@@ -63,23 +69,24 @@
     border-bottom-left-radius: 100px;
     font-size: 18px;
   }
-}
 
-.listitem:nth-child(1) {
-  background-color: #f94a2f;
-}
+  &:nth-child(1) {
+    background-color: #f94a2f;
+  }
 
-.listitem:nth-child(2) {
-  background-color: #fab941;
-}
+  &:nth-child(2) {
+    background-color: #fab941;
+  }
 
-.listitem:nth-child(3) {
-  background-color: #8178ac;
+  &:nth-child(3) {
+    background-color: #8178ac;
+  }
 }
 
 .icon {
   width: 48px;
   height: 48px;
+
   @media screen and (min-width: 768px) {
     width: 96px;
     height: 96px;
@@ -91,9 +98,13 @@
   font-weight: 700;
   line-height: 17px;
   text-align: center;
+
   @media screen and (min-width: 768px) {
     font-size: 22px;
     line-height: 26px;
+  }
+
+  @media screen and (min-width: 1440px) {
     text-align: left;
   }
 }
@@ -102,10 +113,12 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+
   @media screen and (min-width: 768px) {
     width: 60%;
     margin: 0 auto;
   }
+
   @media screen and (min-width: 1440px) {
     width: 100%;
   }
@@ -116,6 +129,7 @@
   display: flex;
   flex-direction: column;
   gap: 60px;
+
   @media screen and (min-width: 1440px) {
     order: 1;
     justify-content: center;
@@ -131,9 +145,11 @@
   font-size: 16px;
   font-weight: 300;
   line-height: normal;
+
   @media screen and (min-width: 768px) {
     font-size: 22px;
   }
+
   @media screen and (min-width: 1440px) {
     text-align: left;
   }
@@ -144,9 +160,11 @@
   text-align: center;
   font-weight: 600;
   font-size: 16px;
+
   @media screen and (min-width: 768px) {
     font-size: 22px;
   }
+
   @media screen and (min-width: 1440px) {
     text-align: left;
   }

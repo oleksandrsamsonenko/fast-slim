@@ -1,6 +1,7 @@
 import Image from "next/image";
-import styles from "./contacts.module.css";
+import ContactsForm from "./contactsForm/contactsForm";
 import Logo from "@public/images/cap.png";
+import styles from "./contacts.module.scss";
 
 function Contacts() {
   return (
@@ -13,35 +14,11 @@ function Contacts() {
           Date prisa para comprar &rdquo;Fast Slim&rdquo; con descuento y
           comienza tu viaje hacia el cuerpo de tus sueños
         </p>
+        <ContactsForm />
       </div>
-      <form action="" className={styles.form}>
-        <div className={styles.inputwrapper}>
-          <input
-            className={styles.input}
-            type="text"
-            id="name"
-            placeholder=" "
-          />
-          <label className={styles.label} htmlFor="name">
-            Nombre
-          </label>
-        </div>
-        <div className={styles.inputwrapper}>
-          <input
-            className={styles.input}
-            type="phone"
-            id="phone"
-            placeholder=" "
-          />
-          <label className={styles.label} htmlFor="phone">
-            Número telefónico
-          </label>
-        </div>
-        <button type="submit" className={styles.button}>
-          Compar
-        </button>
-      </form>
-      <Image src={Logo} className={styles.image} alt="product view" />
+      <div className={styles.imagewrapper}>
+        <Image src={Logo} className={styles.image} alt="product view" />
+      </div>
     </div>
   );
 }

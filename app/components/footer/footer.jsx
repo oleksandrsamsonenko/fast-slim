@@ -1,6 +1,6 @@
 import Logo from "@public/logo.svg";
 
-import styles from "./footer.module.css";
+import styles from "./footer.module.scss";
 function Footer() {
   return (
     <div className={styles.footer}>

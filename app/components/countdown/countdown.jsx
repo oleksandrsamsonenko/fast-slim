@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 
 const Timer = dynamic(() => import("./timer/timer"), { ssr: false });
 
-import styles from "./countdown.module.css";
+import styles from "./countdown.module.scss";
 
 function Countdown() {
   return (

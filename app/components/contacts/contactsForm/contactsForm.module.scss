@@ -1,0 +1,126 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 20px;
+
+  @media screen and (min-width: 1440px) {
+    width: 60%;
+  }
+}
+
+.fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  @media screen and (min-width: 1440px) {
+    width: 60%;
+  }
+}
+
+.inputwrapper {
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  font-family: "Montserrat", "sans-serif";
+  width: 100%;
+  background-color: #fab941;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  caret-color: #fff;
+  color: #fff;
+  outline: 0;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 7px 7px;
+}
+
+.input:placeholder-shown ~ label {
+  top: 0px;
+}
+
+.input:focus ~ label {
+  top: -20px;
+  font-size: 10px;
+}
+
+.label {
+  font-family: "Montserrat", "sans-serif";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  transition: 250ms;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.error {
+  font-family: "Montserrat", "sans-serif";
+  transition: 250ms;
+  color: #f94a2f;
+  font-weight: 700;
+  font-size: 13px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  letter-spacing: 0;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 12px 49px;
+  transition: 300ms ease;
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 15px 72px;
+    line-height: normal;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #f94a2f;
+    color: #fff;
+  }
+}
+
+.emailsuccess {
+  font-family: "Montserrat", "sans-serif";
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: #fab941;
+}
+
+.emailerror {
+  font-family: "Montserrat", "sans-serif";
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 30px;
+  background-color: #f94a2f;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}

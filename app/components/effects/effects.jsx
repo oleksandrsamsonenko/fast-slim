@@ -4,7 +4,7 @@ import Eff2 from "@public/images/effects/effects2.png";
 import Eff3 from "@public/images/effects/effects3.png";
 import Eff4 from "@public/images/effects/effects4.png";
 
-import styles from "./effects.module.css";
+import styles from "./effects.module.scss";
 
 function Effects() {
   return (

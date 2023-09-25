@@ -1,4 +1,4 @@
-import styles from "./experts.module.css";
+import styles from "./experts.module.scss";
 
 function Experts() {
   return (

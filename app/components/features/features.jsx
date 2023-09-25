@@ -2,7 +2,7 @@ import Feat1 from "@public/svg/feat1.svg?url";
 import Feat2 from "@public/svg/feat2.svg?url";
 import Feat3 from "@public/svg/feat3.svg?url";
 import Image from "next/image";
-import styles from "./features.module.css";
+import styles from "./features.module.scss";
 
 function Features() {
   return (

@@ -1,4 +1,4 @@
-import styles from "./ingredients.module.css";
+import styles from "./ingredients.module.scss";
 
 function Ingredients() {
   return (

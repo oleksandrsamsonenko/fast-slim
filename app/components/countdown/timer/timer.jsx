@@ -3,7 +3,7 @@ import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import moment from "moment";
 
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";
-import styles from "./timer.module.css";
+import styles from "./timer.module.scss";
 
 function Timer() {
   const time = moment()
