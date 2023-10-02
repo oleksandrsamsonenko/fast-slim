@@ -3,9 +3,9 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
-import Slider1 from "@public/images/slides/slider1.jpeg";
-import Slider2 from "@public/images/slides/slider2.jpeg";
-import Slider3 from "@public/images/slides/slider3.jpeg";
+import Slider1 from "@images/slides/slider1.jpeg";
+import Slider2 from "@images/slides/slider2.jpeg";
+import Slider3 from "@images/slides/slider3.jpeg";
 
 import "swiper/css";
 import "swiper/css/navigation";

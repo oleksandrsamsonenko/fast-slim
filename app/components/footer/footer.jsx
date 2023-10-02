@@ -1,4 +1,4 @@
-import Logo from "@public/logo.svg";
+import Logo from "public/logo.svg";
 
 import styles from "./footer.module.scss";
 function Footer() {

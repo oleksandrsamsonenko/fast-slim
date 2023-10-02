@@ -1,5 +1,6 @@
-import Logo from "@public/logo.svg";
+import Logo from "public/logo.svg";
 import styles from "./navbar.module.scss";
+
 function Navbar() {
   return (
     <nav className={styles.navigation}>

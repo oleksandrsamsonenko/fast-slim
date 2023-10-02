@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ContactsForm from "./contactsForm/contactsForm";
-import Logo from "@public/images/cap.png";
+import Logo from "@images/cap.png";
 import styles from "./contacts.module.scss";
 
 function Contacts() {
