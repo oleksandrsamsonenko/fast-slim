@@ -9,7 +9,7 @@ import Footer from "./components/footer/footer";
 import Countdown from "./components/countdown/countdown";
 import Contacts from "./components/contacts/contacts";
 
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 
 export default function Home() {
   return (

@@ -1,0 +1,25 @@
+.background {
+  background-image: url("../public/images/hero/bg-mobile.jpg");
+  // background: linear-gradient(
+  //   75deg,
+  //   rgba(237, 90, 74, 1) 0%,
+  //   rgba(240, 187, 107, 1) 30%,
+  //   rgba(235, 181, 111, 1) 70%,
+  //   rgba(207, 151, 134, 1) 80%,
+  //   rgba(207, 151, 134, 1) 100%
+  // );
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0px 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  @media screen and (min-width: 768px) {
+    background-image: url("../public/images/hero/bg-tablet.jpg");
+  }
+
+  @media screen and (min-width: 1440px) {
+    background-image: url("../public/images/hero/bg-desktop.jpg");
+  }
+}
